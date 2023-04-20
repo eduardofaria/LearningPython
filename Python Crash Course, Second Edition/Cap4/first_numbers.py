@@ -13,6 +13,19 @@ print("Ímpares: ", impares, "\n")
 pares = list(range(2, 20, 2))
 print("Pares ", pares)
 
+print("\n ---------------------------- \n")
 
+squares = []
+for valores in range(1, 11):
+    square = valores ** 2
+    squares.append(square)
+print(squares)
 
+print("\n ---------------------------- \n")
 
+raizes = []
+for valores in range(1, 11):
+    raizes.append(valores ** 3)
+print(raizes)
+print("Mínimo: ", min(raizes))
+print("Máximo: ", max(raizes))
