@@ -31,4 +31,4 @@ print("\n ---------------------------- \n")
 print('Lista de players:\n')
 placar = [['Player 1', 1020], ['Player 2', 800], ['Player 3', 759], ['Player 4', 1250]]
 for player in placar:
-    print(player)
+    print('Jogador:', player[0], ' / Pontos: ', player[1])
